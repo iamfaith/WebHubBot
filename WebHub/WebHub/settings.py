@@ -34,7 +34,7 @@ ITEM_PIPELINES = {
      "WebHub.pipelines.PornhubMongoDBPipeline": 403,
 }
 
-FEED_URI=u'~/pornhub.csv'
+FEED_URI=u'/data/output/pornhub.csv'
 FEED_FORMAT='CSV'
 
 DEPTH_PRIORITY = 1
